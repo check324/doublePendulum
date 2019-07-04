@@ -1,4 +1,4 @@
-package main.graphics;
+package main.java.graphics;
 
 import lombok.Getter;
 import lombok.Setter;

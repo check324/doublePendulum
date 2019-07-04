@@ -1,6 +1,6 @@
-package main;
+package main.java;
 
-import main.graphics.Canvas;
+import main.java.graphics.Canvas;
 
 import javax.swing.*;
 
