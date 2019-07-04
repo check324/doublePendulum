@@ -1,8 +1,5 @@
 package main.java.graphics;
 
-import lombok.Getter;
-import lombok.Setter;
-
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
@@ -17,11 +14,6 @@ public class Canvas extends JFrame{
     Board board;
     JButton green, red, blue, gradient, circle;
 
-    private static @Getter @Setter boolean greenFlag;
-    private static @Getter @Setter boolean redFlag;
-    private static @Getter @Setter boolean blueFlag;
-    private static @Getter @Setter boolean gradientFlag;
-    private static @Getter @Setter boolean circleFlag;
 
     public Canvas(){
         container = getContentPane();
@@ -53,11 +45,11 @@ public class Canvas extends JFrame{
     //Listener
     class BListener implements ActionListener{
         public void actionPerformed(ActionEvent e){
-            if(e.getSource() == green) setGreenFlag(true);
-            if(e.getSource() == blue) setBlueFlag(true);
-            if(e.getSource() == red) setRedFlag(true);
-            if(e.getSource() == gradient) setGradientFlag(true);
-            if(e.getSource() == circle) setCircleFlag(true);
+            if(e.getSource() == green) board.setGreenFlag(true);
+            if(e.getSource() == blue) board.setBlueFlag(true);
+            if(e.getSource() == red) board.setRedFlag(true);
+            if(e.getSource() == gradient) board.setGradientFlag(true);
+            if(e.getSource() == circle) board.setCircleFlag(true);
             board.repaint();
         }
     }
