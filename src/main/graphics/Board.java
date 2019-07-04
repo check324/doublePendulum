@@ -34,6 +34,7 @@ public class Board extends JPanel {
             g2.setPaint(p2);
             g2.fill(new Rectangle2D.Float(0,300,600,600));
         }
+        else Canvas.setGradientFlag(true);
 
         if(Canvas.isCircleFlag()){
             //circle
