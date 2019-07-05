@@ -24,34 +24,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2a78fee1-6a6f-46ba-8a0f-f35846ab6804" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/examples/Billiards.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/examples/BowlingBall.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/examples/LinkTerrain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/examples/MouseDrag.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/examples/MouseInteraction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/examples/MousePicking.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/examples/PlayerControl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/examples/Ragdoll.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/examples/Raycast.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/examples/RenderingImagesOnBodies.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/examples/SimplePlatformer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/examples/StopBodyAfterCollision.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/examples/Thrust.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/examples/TrackingContactIds.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/examples/UsingGraphics2D.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/examples/package-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/framework/Graphics2DRenderer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/framework/SimulationBody.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/framework/SimulationFrame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/physics/World.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/physics/WorldManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Basketball.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Crate.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/graphics/Board.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/graphics/Board.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/graphics/Canvas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/graphics/Canvas.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/physics/Ball.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/physics/Ball.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/shape/PositionManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/shape/PositionManager.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -63,44 +36,22 @@
   <component name="CodeInsightWorkspaceSettings">
     <option name="optimizeImportsOnTheFly" value="true" />
   </component>
-  <component name="DockManager">
-    <window id="1">
-      <content type="file-editors">
-        <state>
-          <leaf>
-            <file pinned="false" current-in-tab="true">
-              <entry file="file://$PROJECT_DIR$/src/main/java/physics/Ball.java">
-                <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="104">
-                    <caret line="8" selection-start-line="8" selection-end-line="8" />
-                    <folding>
-                      <element signature="imports" expanded="true" />
-                    </folding>
-                  </state>
-                </provider>
-              </entry>
-            </file>
-          </leaf>
-        </state>
-      </content>
-    </window>
-  </component>
   <component name="FUSProjectUsageTrigger">
     <session id="92857293">
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="class" value="10" />
+          <entry key="class" value="14" />
           <entry key="git" value="1" />
-          <entry key="java" value="42" />
+          <entry key="java" value="53" />
           <entry key="png" value="1" />
           <entry key="yml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="10" />
+          <entry key="CLASS" value="14" />
           <entry key="Image" value="1" />
-          <entry key="JAVA" value="42" />
+          <entry key="JAVA" value="53" />
           <entry key="UNKNOWN" value="1" />
           <entry key="YAML" value="1" />
         </counts>
@@ -108,13 +59,13 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="7" />
-          <entry key="java" value="1207" />
+          <entry key="java" value="1273" />
           <entry key="yml" value="39" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1207" />
+          <entry key="JAVA" value="1273" />
           <entry key="PLAIN_TEXT" value="7" />
           <entry key="YAML" value="39" />
         </counts>
@@ -124,10 +75,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/examples/MouseDrag.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/DoublePendulumApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="26">
-              <caret line="46" column="13" selection-start-line="46" selection-start-column="13" selection-end-line="46" selection-end-column="13" />
+            <state relative-caret-position="468">
+              <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -136,34 +87,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/examples/package-info.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/examples/BowlingBall.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="455">
-              <caret line="31" column="27" selection-start-line="31" selection-start-column="27" selection-end-line="31" selection-end-column="27" />
-              <folding>
-                <element signature="e#0#1771#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/examples/Ragdoll.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-6922">
-              <caret line="43" column="13" selection-start-line="43" selection-start-column="13" selection-end-line="43" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/examples/Raycast.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="47" column="13" selection-start-line="47" selection-start-column="13" selection-end-line="47" selection-end-column="13" />
+            <state relative-caret-position="246">
+              <caret line="59" column="18" selection-start-line="59" selection-start-column="18" selection-end-line="59" selection-end-column="18" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -172,10 +99,9 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/examples/RenderingImagesOnBodies.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/examples/LinkTerrain.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="424">
-              <caret line="62" column="5" lean-forward="true" selection-start-line="62" selection-start-column="5" selection-end-line="62" selection-end-column="5" />
+            <state>
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -184,13 +110,55 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/lang/IllegalArgumentException.java">
+        <entry file="jar://$PROJECT_DIR$/src/main/resources/dyn4j-v3.3.0.jar!/org/dyn4j/dynamics/World.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="212">
-              <caret line="50" column="11" selection-start-line="50" selection-start-column="11" selection-end-line="50" selection-end-column="11" />
+            <state relative-caret-position="208">
+              <caret line="1637" column="16" selection-start-line="1637" selection-start-column="16" selection-end-line="1637" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$PROJECT_DIR$/src/main/resources/dyn4j-v3.3.0.jar!/org/dyn4j/geometry/Geometry.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="262">
+              <caret line="1083" column="35" selection-start-line="1083" selection-start-column="35" selection-end-line="1083" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/util/concurrent/atomic/AtomicBoolean.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="288">
+              <caret line="70" column="23" selection-start-line="70" selection-start-column="23" selection-end-line="70" selection-end-column="23" />
               <folding>
-                <element signature="e#828#829#0" expanded="true" />
-                <element signature="e#852#853#0" expanded="true" />
+                <element signature="e#1522#1523#0" expanded="true" />
+                <element signature="e#1566#1567#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/examples/Billiards.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1040">
+              <caret line="97" column="37" lean-forward="true" selection-start-line="97" selection-start-column="37" selection-end-line="97" selection-end-column="37" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/examples/Ragdoll.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="858">
+              <caret line="325" column="18" selection-start-line="325" selection-start-column="8" selection-end-line="325" selection-end-column="18" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -249,7 +217,6 @@
         <option value="$PROJECT_DIR$/src/main/java/Billiards.java" />
         <option value="$PROJECT_DIR$/src/main/java/examples/Billiards.java" />
         <option value="$PROJECT_DIR$/src/main/java/examples/BowlingBall.java" />
-        <option value="$PROJECT_DIR$/src/main/java/examples/LinkTerrain.java" />
         <option value="$PROJECT_DIR$/src/main/java/examples/MouseDrag.java" />
         <option value="$PROJECT_DIR$/src/main/java/examples/MouseInteraction.java" />
         <option value="$PROJECT_DIR$/src/main/java/examples/MousePicking.java" />
@@ -263,6 +230,7 @@
         <option value="$PROJECT_DIR$/src/main/java/examples/UsingGraphics2D.java" />
         <option value="$PROJECT_DIR$/src/main/java/examples/UsingJogl.java" />
         <option value="$PROJECT_DIR$/src/main/java/examples/RenderingImagesOnBodies.java" />
+        <option value="$PROJECT_DIR$/src/main/java/examples/LinkTerrain.java" />
       </list>
     </option>
   </component>
@@ -323,13 +291,6 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="examples" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="doublePendulum" type="b2602c69:ProjectViewProjectNode" />
-              <item name="doublePendulum" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -350,7 +311,7 @@
     <property name="LombokPluginIS_VAL_Enabled" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1562355681687" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1562358321928" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -390,9 +351,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.RenderingImagesOnBodies">
-    <configuration name="MousePicking" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.java.examples.MousePicking" />
+  <component name="RunManager" selected="Application.LinkTerrain">
+    <configuration name="Billiards" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.java.examples.Billiards" />
       <module name="DoublePendulum" />
       <extension name="coverage">
         <pattern>
@@ -404,8 +365,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PlayerControl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.java.examples.PlayerControl" />
+    <configuration name="BowlingBall" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.java.examples.BowlingBall" />
       <module name="DoublePendulum" />
       <extension name="coverage">
         <pattern>
@@ -417,8 +378,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Ragdoll" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.java.examples.Ragdoll" />
+    <configuration name="LinkTerrain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.java.examples.LinkTerrain" />
       <module name="DoublePendulum" />
       <extension name="coverage">
         <pattern>
@@ -457,19 +418,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.MousePicking" />
-      <item itemvalue="Application.PlayerControl" />
-      <item itemvalue="Application.Ragdoll" />
       <item itemvalue="Application.Raycast" />
       <item itemvalue="Application.RenderingImagesOnBodies" />
+      <item itemvalue="Application.Billiards" />
+      <item itemvalue="Application.BowlingBall" />
+      <item itemvalue="Application.LinkTerrain" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LinkTerrain" />
+        <item itemvalue="Application.BowlingBall" />
+        <item itemvalue="Application.Billiards" />
         <item itemvalue="Application.RenderingImagesOnBodies" />
         <item itemvalue="Application.Raycast" />
-        <item itemvalue="Application.Ragdoll" />
-        <item itemvalue="Application.PlayerControl" />
-        <item itemvalue="Application.MousePicking" />
       </list>
     </recent_temporary>
   </component>
@@ -493,13 +454,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38149000" />
+    <option name="totallyTimeSpent" value="40325000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="2552" y="-8" width="1936" height="1176" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22556391" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22556391" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -508,7 +469,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.15172414" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.31133005" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.28159127" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -516,7 +477,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.2199688" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.2675507" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.26699507" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.29359606" />
       <window_info anchor="bottom" id="TeamCity" order="13" />
@@ -537,22 +498,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/graphics/Line.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/graphics/Ball.java" />
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/lang/StrictMath.java" />
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/awt/Graphics.java" />
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/lang/Runnable.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/graphics/Example.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="48" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="docComment;class#Example#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/util/concurrent/ScheduledExecutorService.java" />
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/lang/Math.java" />
     <entry file="jar://$PROJECT_DIR$/src/main/resources/dyn4j-v3.3.0.jar!/org/dyn4j/geometry/MassType.class">
@@ -590,16 +535,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="260">
           <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/DoublePendulumApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -679,16 +614,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/physics/Ball.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/physics/WorldManager.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="246">
@@ -696,13 +621,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/framework/SimulationFrame.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="417">
-          <caret line="330" column="9" lean-forward="true" selection-start-line="330" selection-start-column="9" selection-end-line="330" selection-end-column="9" />
         </state>
       </provider>
     </entry>
@@ -720,23 +638,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/examples/Billiards.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="44" column="19" selection-start-line="44" selection-start-column="19" selection-end-line="44" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/examples/LinkTerrain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="36" column="33" lean-forward="true" selection-start-line="36" selection-start-column="33" selection-end-line="36" selection-end-column="33" />
         </state>
       </provider>
     </entry>
@@ -816,16 +717,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/examples/BowlingBall.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
-          <caret line="59" column="18" selection-start-line="59" selection-start-column="18" selection-end-line="59" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/examples/MouseDrag.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="26">
@@ -846,33 +737,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/examples/Ragdoll.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-6922">
-          <caret line="43" column="13" selection-start-line="43" selection-start-column="13" selection-end-line="43" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/examples/Raycast.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="286">
           <caret line="47" column="13" selection-start-line="47" selection-start-column="13" selection-end-line="47" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/lang/IllegalArgumentException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="50" column="11" selection-start-line="50" selection-start-column="11" selection-end-line="50" selection-end-column="11" />
-          <folding>
-            <element signature="e#828#829#0" expanded="true" />
-            <element signature="e#852#853#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -920,8 +790,135 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/examples/RenderingImagesOnBodies.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="424">
-          <caret line="62" column="5" lean-forward="true" selection-start-line="62" selection-start-column="5" selection-end-line="62" selection-end-column="5" />
+        <state relative-caret-position="528">
+          <caret line="66" column="29" lean-forward="true" selection-start-line="66" selection-start-column="29" selection-end-line="66" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/lang/IllegalArgumentException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="50" column="11" selection-start-line="50" selection-start-column="11" selection-end-line="50" selection-end-column="11" />
+          <folding>
+            <element signature="e#828#829#0" expanded="true" />
+            <element signature="e#852#853#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/awt/Frame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="420" column="10" lean-forward="true" selection-start-line="420" selection-start-column="10" selection-end-line="420" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/javax/swing/JFrame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="232" column="12" lean-forward="true" selection-start-line="232" selection-start-column="12" selection-end-line="232" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/framework/SimulationFrame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="73" column="10" lean-forward="true" selection-start-line="73" selection-start-column="10" selection-end-line="73" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/physics/Ball.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/examples/Billiards.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1040">
+          <caret line="97" column="37" lean-forward="true" selection-start-line="97" selection-start-column="37" selection-end-line="97" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/src/main/resources/dyn4j-v3.3.0.jar!/org/dyn4j/dynamics/BodyFixture.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="262">
+          <caret line="21" column="11" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="11" />
+          <folding>
+            <element signature="e#699#700#0" expanded="true" />
+            <element signature="e#727#728#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/examples/Ragdoll.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="858">
+          <caret line="325" column="18" selection-start-line="325" selection-start-column="8" selection-end-line="325" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/DoublePendulumApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/examples/BowlingBall.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="246">
+          <caret line="59" column="18" selection-start-line="59" selection-start-column="18" selection-end-line="59" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/util/concurrent/atomic/AtomicBoolean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="70" column="23" selection-start-line="70" selection-start-column="23" selection-end-line="70" selection-end-column="23" />
+          <folding>
+            <element signature="e#1522#1523#0" expanded="true" />
+            <element signature="e#1566#1567#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/src/main/resources/dyn4j-v3.3.0.jar!/org/dyn4j/geometry/Geometry.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="262">
+          <caret line="1083" column="35" selection-start-line="1083" selection-start-column="35" selection-end-line="1083" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/src/main/resources/dyn4j-v3.3.0.jar!/org/dyn4j/dynamics/World.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="1637" column="16" selection-start-line="1637" selection-start-column="16" selection-end-line="1637" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/examples/LinkTerrain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
