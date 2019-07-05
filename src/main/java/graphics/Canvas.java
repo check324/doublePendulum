@@ -56,9 +56,9 @@ public class Canvas extends JFrame{
     private void runByTimer(){
         ScheduledExecutorService executor = Executors.newSingleThreadScheduledExecutor();
         Runnable r = () -> {
-            board.setFirstLineAngle(1 + 60.0f/1000 + board.getFirstLineAngle());
+            board.setFirstLineAngle(10*Math.PI/180*6/1000 + board.getFirstLineAngle());
             board.repaint();
         };
-        executor.scheduleAtFixedRate(r, 1, 10, TimeUnit.MILLISECONDS);
+        executor.scheduleAtFixedRate(r, 1, 1, TimeUnit.MILLISECONDS);
     }
 }
