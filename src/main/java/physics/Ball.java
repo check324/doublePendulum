@@ -14,6 +14,7 @@ public class Ball {
     @Getter @Setter
     private final double firstBallRaidus = 5;
     private final double firstBallMass = 5;
+    private Ball ball;
     public Ball(){
         World world = new World();
         Body body = new Body();
