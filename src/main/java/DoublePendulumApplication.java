@@ -14,5 +14,7 @@ public class DoublePendulumApplication {
         frame.setVisible(true);
         frame.setSize(600,600);
         frame.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
+//        Example example = new Example();
+//        example.printHello();
     }
 }

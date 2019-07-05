@@ -4,6 +4,11 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.util.Timer;
+import java.util.TimerTask;
+import java.util.concurrent.Executors;
+import java.util.concurrent.ScheduledExecutorService;
+import java.util.concurrent.TimeUnit;
 
 /**
  * Created by gandalf.midearth 2019/7/4
@@ -12,45 +17,48 @@ import java.awt.event.ActionListener;
 public class Canvas extends JFrame{
     Container container;
     Board board;
-    JButton green, red, blue, gradient, circle;
 
+    JButton start;
 
     public Canvas(){
         container = getContentPane();
         board = new Board();
-
-        //buttons
-        green = new JButton("Green");
-        red = new JButton("Red");
-        blue = new JButton("Blue");
-        gradient = new JButton("Gradient");
-        circle = new JButton("Circle");
+        start = new JButton("Start");
 
         //listener
-        green.addActionListener(new BListener());
-        red.addActionListener(new BListener());
-        blue.addActionListener(new BListener());
-        gradient.addActionListener(new BListener());
-        circle.addActionListener(new BListener());
+        start.addActionListener(new ButtonListener());
 
-        //add
-        board.add(green);
-        board.add(red);
-        board.add(blue);
-        board.add(gradient);
-        board.add(circle);
+        board.add(start);
         container.add(board);
     }
 
-    //Listener
-    class BListener implements ActionListener{
+    class ButtonListener implements ActionListener{
         public void actionPerformed(ActionEvent e){
-            if(e.getSource() == green) board.setGreenFlag(true);
-            if(e.getSource() == blue) board.setBlueFlag(true);
-            if(e.getSource() == red) board.setRedFlag(true);
-            if(e.getSource() == gradient) board.setGradientFlag(true);
-            if(e.getSource() == circle) board.setCircleFlag(true);
-            board.repaint();
+            if(e.getSource() == start) board.setStart(true);
+            runByTimer();
         }
+    }
+    private void timerTask(){
+        TimerTask task = new TimerTask() {
+
+            @Override
+            public void run() {
+                board.setFirstLineAngle(10 + board.getFirstLineAngle());
+                board.repaint();
+            }
+        };
+        java.util.Timer timer = new Timer();
+        long delay = 1;
+        long intevalPeriod = 60;
+        timer.scheduleAtFixedRate(task, delay,intevalPeriod);
+    }
+
+    private void runByTimer(){
+        ScheduledExecutorService executor = Executors.newSingleThreadScheduledExecutor();
+        Runnable r = () -> {
+            board.setFirstLineAngle(1 + 60.0f/1000 + board.getFirstLineAngle());
+            board.repaint();
+        };
+        executor.scheduleAtFixedRate(r, 1, 10, TimeUnit.MILLISECONDS);
     }
 }
