@@ -90,7 +90,7 @@
         <counts>
           <entry key="class" value="35" />
           <entry key="git" value="1" />
-          <entry key="java" value="72" />
+          <entry key="java" value="73" />
           <entry key="png" value="1" />
           <entry key="yml" value="1" />
         </counts>
@@ -99,7 +99,7 @@
         <counts>
           <entry key="CLASS" value="35" />
           <entry key="Image" value="1" />
-          <entry key="JAVA" value="72" />
+          <entry key="JAVA" value="73" />
           <entry key="UNKNOWN" value="1" />
           <entry key="YAML" value="1" />
         </counts>
@@ -107,13 +107,13 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="65" />
-          <entry key="java" value="4680" />
+          <entry key="java" value="4708" />
           <entry key="yml" value="39" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="4680" />
+          <entry key="JAVA" value="4708" />
           <entry key="PLAIN_TEXT" value="65" />
           <entry key="YAML" value="39" />
         </counts>
@@ -141,11 +141,23 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/SceneManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="37" column="37" selection-start-line="37" selection-start-column="37" selection-end-line="37" selection-end-column="37" />
+            <state relative-caret-position="283">
+              <caret line="18" column="51" selection-start-line="18" selection-start-column="51" selection-end-line="18" selection-end-column="51" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="method#initializeWorld#0;class#SceneManager#0" />
+                <element signature="method#render#0;class#SceneManager#0" />
+                <element signature="method#getRectanglePosition#0;class#SceneManager#0" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/framework/SimulationFrame.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="328">
+              <caret line="237" column="28" lean-forward="true" selection-start-line="237" selection-start-column="28" selection-end-line="237" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -169,6 +181,7 @@
       <find>printHello</find>
       <find>position</find>
       <find>false</find>
+      <find>GREEN</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -337,7 +350,7 @@
     <property name="LombokPluginIS_VAL_Enabled" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1562475454990" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1562475458906" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -476,16 +489,15 @@
       <workItem from="1562263435045" duration="761000" />
       <workItem from="1562265245311" duration="148000" />
       <workItem from="1562265405787" duration="392000" />
-      <workItem from="1562458859437" duration="13697000" />
+      <workItem from="1562458859437" duration="13998000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="54253000" />
+    <option name="totallyTimeSpent" value="54554000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22878624" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -504,9 +516,9 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.18547486" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.22122905" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.34189945" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Messages" order="12" visible="true" weight="0.29273742" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.29273742" />
       <window_info anchor="bottom" id="TeamCity" order="13" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -957,17 +969,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/framework/SimulationFrame.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2183">
-          <caret line="168" column="46" selection-start-line="168" selection-start-column="40" selection-end-line="168" selection-end-column="46" />
+        <state relative-caret-position="328">
+          <caret line="237" column="28" lean-forward="true" selection-start-line="237" selection-start-column="28" selection-end-line="237" selection-end-column="28" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/SceneManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="37" column="37" selection-start-line="37" selection-start-column="37" selection-end-line="37" selection-end-column="37" />
+        <state relative-caret-position="283">
+          <caret line="18" column="51" selection-start-line="18" selection-start-column="51" selection-end-line="18" selection-end-column="51" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="method#initializeWorld#0;class#SceneManager#0" />
+            <element signature="method#render#0;class#SceneManager#0" />
+            <element signature="method#getRectanglePosition#0;class#SceneManager#0" />
           </folding>
         </state>
       </provider>
