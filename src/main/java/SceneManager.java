@@ -11,17 +11,17 @@ import org.dyn4j.geometry.Vector2;
 import java.awt.*;
 
 public class SceneManager extends SimulationFrame {
-//    private Line firstLine;
     private static final double firstLineLength = 5;
     private static final double firstLineWidth = 0.01;
-    private static final double firstLineAngle = 90; // in degree
+    private static final double firstLineAngle = -90; // in degree
     private static final double secondLineLength = 5;
     private static final double secondLineWidth = 0.01;
-    private static final double secondLineAngle = 90; // in degree
+    private static final double secondLineAngle = 80; // in degree
 
+    private static final Vector2 viewPoint = new Vector2(0,0);
     private SimulationBody firstBall;
     private SimulationBody firstLine;
-    private SimulationBody secondtBall;
+    private SimulationBody secondBall;
     private SimulationBody secondLine;
 
     private static final double firstBallRadius = 1;
@@ -43,6 +43,7 @@ public class SceneManager extends SimulationFrame {
 
         // create firstLine
         firstLine = new SimulationBody();
+        firstLine.setColor(Color.WHITE);
         firstLine.addFixture(Geometry.createRectangle(firstLineWidth,firstLineLength));
         firstLine.rotate(firstLineAngle*Math.PI/180);
         firstLine.translate(getRectanglePosition(firstLine, firstLineLength/2).x,getRectanglePosition(firstLine, firstLineLength/2).y);
@@ -60,15 +61,15 @@ public class SceneManager extends SimulationFrame {
         firstPointToFirstLine.setCollisionAllowed(false);
         world.addJoint(firstPointToFirstLine);
 
-//
         // create firstBall
         firstBall = new SimulationBody();
         firstBall.addFixture(Geometry.createCircle(firstBallRadius));
+        firstBall.setColor(Color.BLUE);
         firstBall.translate(getRectanglePosition(firstLine, firstLineLength).x,getRectanglePosition(firstLine, firstLineLength).y);
         firstBall.setMass(MassType.NORMAL);
         world.addBody(firstBall);
 
-        // first line joint with first ball
+        // firstLine joint with firstBall
         RevoluteJoint firstLineToFirstBall = new RevoluteJoint(firstLine, firstBall, getRectanglePosition(firstLine, firstLineLength));
         firstLineToFirstBall.setLimitEnabled(false);
         firstLineToFirstBall.setLimits(Math.toRadians(0.0), Math.toRadians(0.0));
@@ -79,12 +80,56 @@ public class SceneManager extends SimulationFrame {
         firstLineToFirstBall.setCollisionAllowed(false);
         world.addJoint(firstLineToFirstBall);
 
+        // create secondLine
+        secondLine = new SimulationBody();
+        secondLine.setColor(Color.WHITE);
+        secondLine.addFixture(Geometry.createRectangle(secondLineWidth,secondLineLength));
+        secondLine.rotate(secondLineAngle*Math.PI/180);
+        secondLine.translate
+                (getRectanglePosition(firstLine, firstLineLength).x
+                                + getRectanglePosition(secondLine, secondLineLength/2).x
+                        ,getRectanglePosition(firstLine, firstLineLength).y
+                                + getRectanglePosition(secondLine, secondLineLength/2).y
+                );
+        secondLine.setMass(MassType.NORMAL);
+        world.addBody(secondLine);
+
+        // secondLine joint with firstBall
+        RevoluteJoint secondLineToFirstBall = new RevoluteJoint(firstBall, secondLine, getRectanglePosition(firstLine, firstLineLength));
+        secondLineToFirstBall.setLimitEnabled(false);
+        secondLineToFirstBall.setLimits(Math.toRadians(0.0), Math.toRadians(0.0));
+        secondLineToFirstBall.setReferenceAngle(Math.toRadians(0.0));
+        secondLineToFirstBall.setMotorEnabled(false);
+        secondLineToFirstBall.setMotorSpeed(Math.toRadians(0.0));
+        secondLineToFirstBall.setMaximumMotorTorque(0.0);
+        secondLineToFirstBall.setCollisionAllowed(false);
+        world.addJoint(secondLineToFirstBall);
+
+        // create secondBall
+        secondBall = new SimulationBody();
+        secondBall.setColor(Color.RED);
+        secondBall.addFixture(Geometry.createCircle(secondBallRadius));
+        secondBall.translate(getRectanglePosition(firstLine, firstLineLength).x + getRectanglePosition(secondLine, secondLineLength).x,
+                getRectanglePosition(firstLine, firstLineLength).y + getRectanglePosition(secondLine, secondLineLength).y);
+        secondBall.setMass(MassType.NORMAL);
+        world.addBody(secondBall);
+
+        // secondLine joint with secondBall
+        RevoluteJoint secondLineToSecondBall = new RevoluteJoint(secondBall, secondLine, getRectanglePosition(firstLine, firstLineLength).add(getRectanglePosition(secondLine, secondLineLength)));
+        secondLineToSecondBall.setLimitEnabled(false);
+        secondLineToSecondBall.setLimits(Math.toRadians(0.0), Math.toRadians(0.0));
+        secondLineToSecondBall.setReferenceAngle(Math.toRadians(0.0));
+        secondLineToSecondBall.setMotorEnabled(false);
+        secondLineToSecondBall.setMotorSpeed(Math.toRadians(0.0));
+        secondLineToSecondBall.setMaximumMotorTorque(0.0);
+        secondLineToSecondBall.setCollisionAllowed(false);
+        world.addJoint(secondLineToSecondBall);
+
     }
     @Override
     protected void render(Graphics2D g, double elapsedTime) {
         // move the view a bit
-        g.translate(0, 0);
-
+        g.translate(viewPoint.x, viewPoint.y);
         super.render(g, elapsedTime);
     }
 
