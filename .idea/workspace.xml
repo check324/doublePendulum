@@ -25,6 +25,8 @@
   <component name="ChangeListManager">
     <list default="true" id="2a78fee1-6a6f-46ba-8a0f-f35846ab6804" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SceneManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SceneManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/framework/SimulationFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/framework/SimulationFrame.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -36,38 +38,91 @@
   <component name="CodeInsightWorkspaceSettings">
     <option name="optimizeImportsOnTheFly" value="true" />
   </component>
+  <component name="DockManager">
+    <window id="1">
+      <content type="file-editors">
+        <state>
+          <leaf>
+            <file pinned="false" current-in-tab="false">
+              <entry file="file://$PROJECT_DIR$/src/main/java/examples/Billiards.java">
+                <provider selected="true" editor-type-id="text-editor">
+                  <state relative-caret-position="637">
+                    <caret line="105" column="8" selection-start-line="105" selection-start-column="8" selection-end-line="106" selection-end-column="25" />
+                    <folding>
+                      <element signature="imports" expanded="true" />
+                    </folding>
+                  </state>
+                </provider>
+              </entry>
+            </file>
+            <file pinned="false" current-in-tab="false">
+              <entry file="file://$PROJECT_DIR$/src/main/java/examples/LinkTerrain.java">
+                <provider selected="true" editor-type-id="text-editor">
+                  <state relative-caret-position="390">
+                    <caret line="117" column="43" lean-forward="true" selection-start-line="117" selection-start-column="43" selection-end-line="117" selection-end-column="43" />
+                    <folding>
+                      <element signature="imports" expanded="true" />
+                    </folding>
+                  </state>
+                </provider>
+              </entry>
+            </file>
+            <file pinned="false" current-in-tab="true">
+              <entry file="file://$PROJECT_DIR$/src/main/java/examples/Ragdoll.java">
+                <provider selected="true" editor-type-id="text-editor">
+                  <state relative-caret-position="377">
+                    <caret line="230" selection-start-line="230" selection-end-line="239" selection-end-column="44" />
+                    <folding>
+                      <element signature="imports" expanded="true" />
+                    </folding>
+                  </state>
+                </provider>
+              </entry>
+            </file>
+          </leaf>
+        </state>
+      </content>
+    </window>
+  </component>
   <component name="FUSProjectUsageTrigger">
     <session id="92857293">
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="class" value="14" />
+          <entry key="class" value="35" />
           <entry key="git" value="1" />
-          <entry key="java" value="53" />
+          <entry key="java" value="72" />
           <entry key="png" value="1" />
           <entry key="yml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="14" />
+          <entry key="CLASS" value="35" />
           <entry key="Image" value="1" />
-          <entry key="JAVA" value="53" />
+          <entry key="JAVA" value="72" />
           <entry key="UNKNOWN" value="1" />
           <entry key="YAML" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="dummy" value="7" />
-          <entry key="java" value="1273" />
+          <entry key="dummy" value="65" />
+          <entry key="java" value="4680" />
           <entry key="yml" value="39" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1273" />
-          <entry key="PLAIN_TEXT" value="7" />
+          <entry key="JAVA" value="4680" />
+          <entry key="PLAIN_TEXT" value="65" />
           <entry key="YAML" value="39" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.6" value="1" />
+          <entry key="project.opened" value="1" />
         </counts>
       </usages-collector>
     </session>
@@ -77,86 +132,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/DoublePendulumApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="468">
-              <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/examples/BowlingBall.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="246">
-              <caret line="59" column="18" selection-start-line="59" selection-start-column="18" selection-end-line="59" selection-end-column="18" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="208">
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/examples/LinkTerrain.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/SceneManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$PROJECT_DIR$/src/main/resources/dyn4j-v3.3.0.jar!/org/dyn4j/dynamics/World.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
-              <caret line="1637" column="16" selection-start-line="1637" selection-start-column="16" selection-end-line="1637" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$PROJECT_DIR$/src/main/resources/dyn4j-v3.3.0.jar!/org/dyn4j/geometry/Geometry.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="262">
-              <caret line="1083" column="35" selection-start-line="1083" selection-start-column="35" selection-end-line="1083" selection-end-column="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/util/concurrent/atomic/AtomicBoolean.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="70" column="23" selection-start-line="70" selection-start-column="23" selection-end-line="70" selection-end-column="23" />
-              <folding>
-                <element signature="e#1522#1523#0" expanded="true" />
-                <element signature="e#1566#1567#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/examples/Billiards.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1040">
-              <caret line="97" column="37" lean-forward="true" selection-start-line="97" selection-start-column="37" selection-end-line="97" selection-end-column="37" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/examples/Ragdoll.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="858">
-              <caret line="325" column="18" selection-start-line="325" selection-start-column="8" selection-end-line="325" selection-end-column="18" />
+            <state relative-caret-position="140">
+              <caret line="37" column="37" selection-start-line="37" selection-start-column="37" selection-end-line="37" selection-end-column="37" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -182,6 +168,7 @@
       <find>printerG2D</find>
       <find>printHello</find>
       <find>position</find>
+      <find>false</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -201,11 +188,9 @@
         <option value="$PROJECT_DIR$/src/main/java/graphics/Path.java" />
         <option value="$PROJECT_DIR$/src/main/java/shape/ShapeManager.java" />
         <option value="$PROJECT_DIR$/src/main/java/graphics/ShapeManager.java" />
-        <option value="$PROJECT_DIR$/src/main/java/graphics/Line.java" />
         <option value="$PROJECT_DIR$/src/main/java/graphics/Ball.java" />
         <option value="$PROJECT_DIR$/src/main/java/graphics/example.java" />
         <option value="$PROJECT_DIR$/src/main/java/graphics/Example.java" />
-        <option value="$PROJECT_DIR$/src/main/java/DoublePendulumApplication.java" />
         <option value="$PROJECT_DIR$/src/main/java/graphics/Canvas.java" />
         <option value="$PROJECT_DIR$/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/src/main/java/physics/Ball.java" />
@@ -231,6 +216,10 @@
         <option value="$PROJECT_DIR$/src/main/java/examples/UsingJogl.java" />
         <option value="$PROJECT_DIR$/src/main/java/examples/RenderingImagesOnBodies.java" />
         <option value="$PROJECT_DIR$/src/main/java/examples/LinkTerrain.java" />
+        <option value="$PROJECT_DIR$/src/main/java/DoublePendulumApplication.java" />
+        <option value="$PROJECT_DIR$/src/main/java/graphics/Line.java" />
+        <option value="$PROJECT_DIR$/src/main/java/framework/SimulationFrame.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SceneManager.java" />
       </list>
     </option>
   </component>
@@ -247,10 +236,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="2552" />
+    <option name="x" value="1912" />
     <option name="y" value="-8" />
     <option name="width" value="1936" />
-    <option name="height" value="1176" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -289,7 +278,44 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="examples" type="462c0819:PsiDirectoryNode" />
+              <item name="framework" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="doublePendulum" type="b2602c69:ProjectViewProjectNode" />
+              <item name="doublePendulum" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="doublePendulum" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="doublePendulum" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="doublePendulum" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="doublePendulum" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="doublePendulum" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="awt" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -311,7 +337,7 @@
     <property name="LombokPluginIS_VAL_Enabled" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1562358321928" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1562475454990" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -351,7 +377,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.LinkTerrain">
+  <component name="RunManager" selected="Application.DoublePendulumApplication">
     <configuration name="Billiards" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.java.examples.Billiards" />
       <module name="DoublePendulum" />
@@ -378,6 +404,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="DoublePendulumApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.java.DoublePendulumApplication" />
+      <module name="DoublePendulum" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.java.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="LinkTerrain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.java.examples.LinkTerrain" />
       <module name="DoublePendulum" />
@@ -391,21 +430,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Raycast" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.java.examples.Raycast" />
-      <module name="DoublePendulum" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="main.java.examples.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RenderingImagesOnBodies" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.java.examples.RenderingImagesOnBodies" />
+    <configuration name="MouseDrag" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.java.examples.MouseDrag" />
       <module name="DoublePendulum" />
       <extension name="coverage">
         <pattern>
@@ -418,19 +444,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Raycast" />
-      <item itemvalue="Application.RenderingImagesOnBodies" />
-      <item itemvalue="Application.Billiards" />
-      <item itemvalue="Application.BowlingBall" />
+      <item itemvalue="Application.MouseDrag" />
       <item itemvalue="Application.LinkTerrain" />
+      <item itemvalue="Application.BowlingBall" />
+      <item itemvalue="Application.Billiards" />
+      <item itemvalue="Application.DoublePendulumApplication" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.LinkTerrain" />
-        <item itemvalue="Application.BowlingBall" />
+        <item itemvalue="Application.DoublePendulumApplication" />
         <item itemvalue="Application.Billiards" />
-        <item itemvalue="Application.RenderingImagesOnBodies" />
-        <item itemvalue="Application.Raycast" />
+        <item itemvalue="Application.BowlingBall" />
+        <item itemvalue="Application.LinkTerrain" />
+        <item itemvalue="Application.MouseDrag" />
       </list>
     </recent_temporary>
   </component>
@@ -450,17 +476,18 @@
       <workItem from="1562263435045" duration="761000" />
       <workItem from="1562265245311" duration="148000" />
       <workItem from="1562265405787" duration="392000" />
+      <workItem from="1562458859437" duration="13697000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40325000" />
+    <option name="totallyTimeSpent" value="54253000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="2552" y="-8" width="1936" height="1176" extended-state="6" />
+    <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22556391" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22878624" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -468,18 +495,18 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.31133005" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.28159127" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32960895" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.35977653" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3586592" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.2199688" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.18547486" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.26699507" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.22122905" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.29359606" />
+      <window_info active="true" anchor="bottom" id="Messages" order="12" visible="true" weight="0.29273742" />
       <window_info anchor="bottom" id="TeamCity" order="13" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -497,137 +524,28 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/examples/Ragdoll.java</url>
+          <line>323</line>
+          <properties class="main.java.examples.Ragdoll" method="main">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/util/concurrent/ScheduledExecutorService.java" />
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/lang/Math.java" />
-    <entry file="jar://$PROJECT_DIR$/src/main/resources/dyn4j-v3.3.0.jar!/org/dyn4j/geometry/MassType.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="26">
-          <caret line="1" column="17" lean-forward="true" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="99" selection-start-line="99" selection-end-line="99" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="https://github.com/dyn4j/dyn4j-samples.git">
-      <provider selected="true" editor-type-id="httpFileEditor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/shape/PositionManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="14" column="33" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/physics/World.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/src/main/resources/dyn4j-v3.3.0.jar!/org/dyn4j/dynamics/Body.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="244">
-          <caret line="638" column="5" lean-forward="true" selection-start-line="638" selection-start-column="5" selection-end-line="638" selection-end-column="5" />
-          <folding>
-            <element signature="e#19483#19484#0" expanded="true" />
-            <element signature="e#19527#19528#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/graphics/Canvas.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="766">
-          <caret line="64" lean-forward="true" selection-start-line="64" selection-end-line="64" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1002#1204#0" expanded="true" />
-            <element signature="e#1203#1204#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/graphics/Board.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="489">
-          <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/src/main/resources/dyn4j-v3.3.0.jar!/org/dyn4j/geometry/Mass.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="174" column="19" selection-start-line="174" selection-start-column="19" selection-end-line="174" selection-end-column="19" />
-          <folding>
-            <element signature="e#5789#5790#0" expanded="true" />
-            <element signature="e#5823#5824#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/src/main/resources/dyn4j-v3.3.0.jar!/org/dyn4j/collision/AbstractCollidable.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2688">
-          <caret line="185" column="21" selection-start-line="185" selection-start-column="21" selection-end-line="185" selection-end-column="21" />
-          <folding>
-            <element signature="e#5014#5015#0" expanded="true" />
-            <element signature="e#5051#5052#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/src/main/resources/dyn4j-v3.3.0.jar!/org/dyn4j/geometry/Transform.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="173" column="16" selection-start-line="173" selection-start-column="16" selection-end-line="173" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/src/main/resources/dyn4j-v3.3.0.jar!/org/dyn4j/geometry/Transformable.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/src/main/resources/dyn4j-v3.3.0.jar!/org/dyn4j/geometry/Translatable.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/physics/WorldManager.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="246">
           <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/framework/SimulationBody.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1976">
-          <caret line="14" column="15" lean-forward="true" selection-start-line="14" selection-start-column="15" selection-end-line="14" selection-end-column="15" />
         </state>
       </provider>
     </entry>
@@ -667,13 +585,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/examples/SimplePlatformer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="36" column="43" selection-start-line="36" selection-start-column="43" selection-end-line="36" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/examples/StopBodyAfterCollision.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="312">
@@ -698,16 +609,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/examples/UsingJogl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
-          <caret line="88" column="19" lean-forward="true" selection-start-line="88" selection-start-column="19" selection-end-line="88" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/examples/UsingJogl.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/examples/UsingGraphics2D.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -737,16 +639,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/examples/Raycast.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="47" column="13" selection-start-line="47" selection-start-column="13" selection-end-line="47" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/Basketball.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -754,10 +646,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="277">
           <caret line="89" column="31" selection-start-line="89" selection-start-column="31" selection-end-line="89" selection-end-column="31" />
-          <folding>
-            <element signature="e#2923#2924#0" expanded="true" />
-            <element signature="e#2978#2979#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -823,30 +711,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/framework/SimulationFrame.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="235">
-          <caret line="73" column="10" lean-forward="true" selection-start-line="73" selection-start-column="10" selection-end-line="73" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/physics/Ball.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="104">
           <caret line="8" selection-start-line="8" selection-end-line="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/examples/Billiards.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1040">
-          <caret line="97" column="37" lean-forward="true" selection-start-line="97" selection-start-column="37" selection-end-line="97" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -854,29 +722,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="262">
           <caret line="21" column="11" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="11" />
-          <folding>
-            <element signature="e#699#700#0" expanded="true" />
-            <element signature="e#727#728#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/examples/Ragdoll.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/util/concurrent/atomic/AtomicBoolean.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="858">
-          <caret line="325" column="18" selection-start-line="325" selection-start-column="8" selection-end-line="325" selection-end-column="18" />
+        <state relative-caret-position="936">
+          <caret line="70" column="23" selection-start-line="70" selection-start-column="23" selection-end-line="70" selection-end-column="23" />
           <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/DoublePendulumApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#1522#1523#0" expanded="true" />
+            <element signature="e#1566#1567#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -891,34 +746,226 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/util/concurrent/atomic/AtomicBoolean.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/examples/Billiards.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="70" column="23" selection-start-line="70" selection-start-column="23" selection-end-line="70" selection-end-column="23" />
+        <state relative-caret-position="637">
+          <caret line="105" column="8" selection-start-line="105" selection-start-column="8" selection-end-line="106" selection-end-column="25" />
           <folding>
-            <element signature="e#1522#1523#0" expanded="true" />
-            <element signature="e#1566#1567#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/src/main/resources/dyn4j-v3.3.0.jar!/org/dyn4j/geometry/Geometry.class">
+    <entry file="jar://$PROJECT_DIR$/src/main/resources/dyn4j-v3.3.0.jar!/org/dyn4j/geometry/Circle.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="262">
-          <caret line="1083" column="35" selection-start-line="1083" selection-start-column="35" selection-end-line="1083" selection-end-column="35" />
+        <state relative-caret-position="190">
+          <caret line="15" column="11" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/src/main/resources/dyn4j-v3.3.0.jar!/org/dyn4j/geometry/Convex.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/src/main/resources/dyn4j-v3.3.0.jar!/org/dyn4j/geometry/Transform.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="249" column="18" selection-start-line="249" selection-start-column="18" selection-end-line="249" selection-end-column="18" />
+          <folding>
+            <element signature="e#8232#8233#0" expanded="true" />
+            <element signature="e#8261#8262#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/examples/LinkTerrain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="117" column="43" lean-forward="true" selection-start-line="117" selection-start-column="43" selection-end-line="117" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/examples/SimplePlatformer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="60" column="50" selection-start-line="60" selection-start-column="50" selection-end-line="60" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/lang/Thread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="1958" selection-start-line="1958" selection-end-line="1958" />
+          <folding>
+            <element signature="e#76090#76091#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/examples/Raycast.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="52" column="27" lean-forward="true" selection-start-line="52" selection-start-column="27" selection-end-line="52" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/src/main/resources/dyn4j-v3.3.0.jar!/org/dyn4j/dynamics/Constraint.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/graphics/Line.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="328">
+          <caret line="13" column="8" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/src/main/resources/dyn4j-v3.3.0.jar!/org/dyn4j/geometry/Mass.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-260">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/src/main/resources/dyn4j-v3.3.0.jar!/org/dyn4j/geometry/Rectangle.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/src/main/resources/dyn4j-v3.3.0.jar!/org/dyn4j/dynamics/joint/RevoluteJoint.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="38" column="11" selection-start-line="38" selection-start-column="11" selection-end-line="38" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/examples/Ragdoll.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="377">
+          <caret line="230" selection-start-line="230" selection-end-line="239" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="jar://$PROJECT_DIR$/src/main/resources/dyn4j-v3.3.0.jar!/org/dyn4j/dynamics/World.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="208">
-          <caret line="1637" column="16" selection-start-line="1637" selection-start-column="16" selection-end-line="1637" selection-end-column="16" />
+          <caret line="1133" selection-start-line="1133" selection-end-line="1133" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/examples/LinkTerrain.java">
+    <entry file="jar://$PROJECT_DIR$/src/main/resources/dyn4j-v3.3.0.jar!/org/dyn4j/geometry/MassType.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
+        <state relative-caret-position="104">
+          <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/src/main/resources/dyn4j-v3.3.0.jar!/org/dyn4j/geometry/Geometry.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="384" column="34" selection-start-line="384" selection-start-column="34" selection-end-line="384" selection-end-column="34" />
+          <folding>
+            <element signature="e#13654#13655#0" expanded="true" />
+            <element signature="e#13705#13706#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/awt/Graphics2D.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="972" column="25" selection-start-line="972" selection-start-column="25" selection-end-line="972" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/framework/SimulationBody.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="26">
+          <caret line="23" column="11" selection-start-line="23" selection-start-column="11" selection-end-line="23" selection-end-column="11" />
+          <folding>
+            <element signature="e#506#507#0" expanded="true" />
+            <element signature="e#561#562#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/src/main/resources/dyn4j-v3.3.0.jar!/org/dyn4j/dynamics/Body.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="213">
+          <caret line="516" column="29" lean-forward="true" selection-start-line="516" selection-start-column="29" selection-end-line="516" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/src/main/resources/dyn4j-v3.3.0.jar!/org/dyn4j/collision/AbstractCollidable.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="203" column="31" lean-forward="true" selection-start-line="203" selection-start-column="31" selection-end-line="203" selection-end-column="31" />
+          <folding>
+            <element signature="e#5394#5395#0" expanded="true" />
+            <element signature="e#5434#5435#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/lang/Object.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="36" column="13" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/awt/Component.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42666">
+          <caret line="1822" column="16" selection-start-line="1822" selection-start-column="16" selection-end-line="1822" selection-end-column="16" />
+          <folding>
+            <element signature="e#84656#84657#0" expanded="true" />
+            <element signature="e#84684#84685#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/DoublePendulumApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/framework/SimulationFrame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2183">
+          <caret line="168" column="46" selection-start-line="168" selection-start-column="40" selection-end-line="168" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SceneManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="37" column="37" selection-start-line="37" selection-start-column="37" selection-end-line="37" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

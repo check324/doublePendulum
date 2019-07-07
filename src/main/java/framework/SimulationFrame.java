@@ -103,7 +103,7 @@ public abstract class SimulationFrame extends JFrame {
 		this.canvas.setPreferredSize(size);
 		this.canvas.setMinimumSize(size);
 		this.canvas.setMaximumSize(size);
-		
+
 		// add the canvas to the JFrame
 		this.add(this.canvas);
 		
